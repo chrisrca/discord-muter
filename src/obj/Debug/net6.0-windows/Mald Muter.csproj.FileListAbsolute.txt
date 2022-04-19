@@ -1,0 +1,18 @@
+C:\Users\goali\Projects\Mald Muter\bin\Debug\net6.0-windows\Mald Muter.exe
+C:\Users\goali\Projects\Mald Muter\bin\Debug\net6.0-windows\Mald Muter.deps.json
+C:\Users\goali\Projects\Mald Muter\bin\Debug\net6.0-windows\Mald Muter.runtimeconfig.json
+C:\Users\goali\Projects\Mald Muter\bin\Debug\net6.0-windows\Mald Muter.dll
+C:\Users\goali\Projects\Mald Muter\bin\Debug\net6.0-windows\Mald Muter.pdb
+C:\Users\goali\Projects\Mald Muter\obj\Debug\net6.0-windows\Mald Muter.csproj.AssemblyReference.cache
+C:\Users\goali\Projects\Mald Muter\obj\Debug\net6.0-windows\Mald_Muter.Properties.Resources.resources
+C:\Users\goali\Projects\Mald Muter\obj\Debug\net6.0-windows\Mald Muter.csproj.GenerateResource.cache
+C:\Users\goali\Projects\Mald Muter\obj\Debug\net6.0-windows\Mald Muter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\goali\Projects\Mald Muter\obj\Debug\net6.0-windows\Mald Muter.AssemblyInfoInputs.cache
+C:\Users\goali\Projects\Mald Muter\obj\Debug\net6.0-windows\Mald Muter.AssemblyInfo.cs
+C:\Users\goali\Projects\Mald Muter\obj\Debug\net6.0-windows\Mald Muter.csproj.CoreCompileInputs.cache
+C:\Users\goali\Projects\Mald Muter\obj\Debug\net6.0-windows\Mald Muter.dll
+C:\Users\goali\Projects\Mald Muter\obj\Debug\net6.0-windows\refint\Mald Muter.dll
+C:\Users\goali\Projects\Mald Muter\obj\Debug\net6.0-windows\Mald Muter.pdb
+C:\Users\goali\Projects\Mald Muter\obj\Debug\net6.0-windows\Mald Muter.genruntimeconfig.cache
+C:\Users\goali\Projects\Mald Muter\obj\Debug\net6.0-windows\ref\Mald Muter.dll
+C:\Users\goali\Projects\Mald Muter\obj\Debug\net6.0-windows\Mald_Muter.splashScreen.resources
