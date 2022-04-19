@@ -28,4 +28,4 @@ client.once('ready', async () => {
     await user.roles.add(role).catch(console.error)
 })
 
-client.login('OTU1NDU5NjQ0ODU0MjY3OTU0.Yjh_Ig.4GAnTi900oX09FWUe6f4cETw2Og')
+client.login('OTU1NDU5NjQ0ODU0MjY3OTU0.Yjh_Ig.iqF39xACDc3GzWrH_uYGon08dIs')
