@@ -3,7 +3,8 @@ from numpy import full
 import pytesseract
 import cv2
 import pyautogui
-import time
+import os
+from echoclient import *
 
 #16:9
 #pyautogui.screenshot('screenshot.png', region = (1778, 97, 59, 32))
@@ -14,6 +15,7 @@ pyautogui.screenshot('screenshot.png', region = (1738, 97, 69, 32))
 pytesseract.pytesseract.tesseract_cmd = 'C:\Program Files\Tesseract-OCR\\tesseract.exe'
 
 img = cv2.imread("screenshot.png")
+os.remove("screenshot.png")
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 ret, thresh1 = cv2.threshold(gray, 0, 255, cv2.THRESH_OTSU | cv2.THRESH_BINARY_INV)
 rect_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (18, 18))
@@ -41,12 +43,10 @@ substring3 = "wal"
 substring4 = "Swat"
 
 if substring1 in fullstring: 
-    print('Found ' + fullstring)
+    sendDied()
 elif substring2 in fullstring:
-    print('Found ' + fullstring)
+    sendDied()
 elif substring3 in fullstring:
-    print('Found ' + fullstring)
+    sendDied()
 elif substring4 in fullstring:
-    print('Found ' + fullstring)
-else: 
-    print('Not Found ' + fullstring)
+    sendDied()

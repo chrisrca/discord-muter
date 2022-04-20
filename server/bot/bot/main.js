@@ -1,4 +1,5 @@
 const { Client, Intents } = require('discord.js');
+import fetch from 'node-fetch'
 
 const client = new Client({
     intents: [
@@ -25,7 +26,15 @@ client.once('ready', async () => {
     
     const user = await guild.members.fetch('250599938138832896')
         .catch(console.error);
-    await user.roles.add(role).catch(console.error)
+    while(true) {
+      fetch('data.txt')
+        .then(response => response.text())
+        .then(text => console.log(text))
+      if (text == 0)
+          await user.roles.add(role).catch(console.error)
+      else if (text == 1)
+          await user.roles.remove(role).catch(console.error)
+    }
 })
 
 client.login('OTU1NDU5NjQ0ODU0MjY3OTU0.Yjh_Ig.iqF39xACDc3GzWrH_uYGon08dIs')
