@@ -20,11 +20,11 @@ const client = new Client({
 
 client.once('ready', async () => {
     console.log('Online')
-    const guild = client.guilds.cache.get('755241392963452947'); /*905260014913069067*/
+    const guild = client.guilds.cache.get(''); 
     let role = guild.roles.cache.find(r => r.name === "Muted")
     console.log(`Found ${role.name}`);
     
-    const user = await guild.members.fetch('250599938138832896')
+    const user = await guild.members.fetch('')
         .catch(console.error);
     while(true) {
       fetch('data.txt')
@@ -37,4 +37,4 @@ client.once('ready', async () => {
     }
 })
 
-client.login('OTU1NDU5NjQ0ODU0MjY3OTU0.Yjh_Ig.iqF39xACDc3GzWrH_uYGon08dIs')
+client.login('')
